@@ -1,0 +1,16 @@
+Title: pudlez-tools created
+Author: pudlez <github@pudlez.net>
+Content-Type: text/plain
+Posted: 2021-06-07
+
+pudlez-tools repo created
+----------------------------------------------------------------------
+Due to sakaki-tools starting to throw warnings/errors, I decided I would
+create my own repo based off sakaki's repo. I will eventually be adding
+more ebuilds.
+
+Please note that this repo is mostly for me but I'm not against others
+using it. If you have issues, please let me know and I can try fixing
+it but in no way do a guarentee I will fix everything...
+
+-PuDLeZ

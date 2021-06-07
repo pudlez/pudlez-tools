@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+    <repo priority="100" quality="experimental" status="unofficial">
+        <name>pudlez-tools</name>
+        <description lang="en">PuDLeZ's collection of ebuilds...</description>
+        <homepage>https://github.com/pudlez/pudlez-tools</homepage>
+        <owner>
+            <name>pudlez</name>
+            <email>github@pudlez.net</email>
+        </owner>
+        <source type="git">https://github.com/pudlez/pudlez-tools.git</source>
+        <source type="git">git://github.com/pudlez/pudlez-tools.git</source>
+        <source type="git">git@github.com:pudlez/pudlez-tools.git</source>
+        <feed>https://github.com/pudlez/pudlez-tools/commits/master.atom</feed>
+    </repo>
+</repositories>

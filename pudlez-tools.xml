@@ -1,0 +1,11 @@
+<repositories encoding="unicode" version="1.1">
+  <repo priority="50" quality="experimental">
+    <name>pudlez-tools</name>
+    <description>PuDLeZ's collection of ebuilds...</description>
+    <owner>
+      <email>github@pudlez.net</email>
+      <name>pudlez</name>
+    </owner>
+    <source type="git">https://github.com/pudlez/pudlez-tools.git</source>
+  </repo>
+</repositories>
