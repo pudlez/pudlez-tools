@@ -3,9 +3,7 @@
 # License: GPL v2
 # NO WARRANTY
 
-EAPI=5
-
-inherit eutils
+EAPI=8
 
 DESCRIPTION="View output of a parallel emerge from a separate terminal"
 BASE_SERVER_URI="https://github.com/sakaki-"
@@ -15,19 +13,14 @@ SRC_URI="${BASE_SERVER_URI}/${PN}/releases/download/${PV}/${P}.tar.gz"
 LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~amd64 ~x86 ~arm ~ppc"
-
 RESTRICT="mirror"
+RDEPEND="
+    >=sys-libs/ncurses-5.9-r2
+    >=app-shells/bash-4.2
+"
+DEPEND="${RDEPEND}"
 
-DEPEND=""
-RDEPEND="${DEPEND}
-	>=sys-libs/ncurses-5.9-r2
-	>=app-shells/bash-4.2"
-
-# ebuild function overrides
-src_prepare() {
-	epatch_user
-}
 src_install() {
-	dobin "${PN}"
-	doman "${PN}.1"
+    dobin "${PN}" || die
+    doman "${PN}.1" || die
 }
