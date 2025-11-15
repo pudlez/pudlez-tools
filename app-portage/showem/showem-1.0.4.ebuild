@@ -6,7 +6,7 @@
 EAPI=8
 
 DESCRIPTION="View output of a parallel emerge from a separate terminal"
-BASE_SERVER_URI="https://github.com/sakaki-"
+BASE_SERVER_URI="https://github.com/pudlez"
 HOMEPAGE="${BASE_SERVER_URI}/${PN}"
 SRC_URI="${BASE_SERVER_URI}/${PN}/releases/download/${PV}/${P}.tar.gz"
 
